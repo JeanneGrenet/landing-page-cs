@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@font-face {
+  font-family: "TrashHand";
+  src: url("../assets/font/TrashHand.TTF");
+  font-display: swap;
+}
