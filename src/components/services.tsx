@@ -49,7 +49,7 @@ const features = [
 
 export default function ServicesSection() {
   return (
-    <div className="bg-primary py-24 sm:py-32">
+    <div className="bg-primary py-12 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-base font-semibold leading-7 text-secondary">
@@ -60,7 +60,7 @@ export default function ServicesSection() {
           </p>
           <p className="mt-6 text-lg leading-8 text-white">
             On fait du développement sur mesure, des applications web fluides et
-            des solutions digitales qui marchent. On n'a pas de formules
+            des solutions digitales qui marchent. On n&apos;a pas de formules
             magiques, juste du bon boulot. On est sympa, mais surtout on est
             pros !
           </p>
