@@ -40,11 +40,11 @@ export default function HeroSection() {
         <div className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-primary sm:-mr-80 lg:-mr-96" />
         <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
-            <h1 className="max-w-2xl text-4xl font-bold text-white sm:text-6xl lg:col-span-2 xl:col-auto font-TrashHand tracking-wider">
+            <h1 className="max-w-2xl text-4xl font-bold text-secondary sm:text-6xl lg:col-span-2 xl:col-auto font-TrashHand tracking-wider">
               Camel Studio: une boîte de devs agiles et résilients 
             </h1>
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-              <p className="text-lg leading-8 text-white">
+              <p className="text-lg leading-8">
                 Au Camel Studio on sait comment garder la tête froide même dans
                 les projets les plus chauds. Pas de bosses, que des solutions.
               </p>
