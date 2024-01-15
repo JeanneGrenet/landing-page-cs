@@ -11,7 +11,7 @@ const navigation = [
 export default function HeroSection() {
   return (
     <div className="bg-secondary">
-      <header className="absolute inset-x-0 top-0 z-50 bg-secondary py-4">
+      <header className="absolute inset-x-0 top-0 z-50 py-4">
         <nav
           className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
           aria-label="Global"
@@ -37,19 +37,18 @@ export default function HeroSection() {
         </nav>
       </header>
       <div className="relative isolate pt-5 ">
-        <div className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-primary sm:-mr-80 lg:-mr-96" />
         <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
-            <h1 className="max-w-2xl text-4xl font-bold text-white sm:text-6xl lg:col-span-2 xl:col-auto font-TrashHand tracking-wider">
+            <h1 className="max-w-2xl text-4xl font-bold text-primary sm:text-6xl lg:col-span-2 xl:col-auto font-TrashHand tracking-wider">
               Camel Studio: une boîte de devs agiles et résilients 
             </h1>
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-              <p className="text-lg leading-8 text-white">
+              <p className="text-lg leading-8">
                 Au Camel Studio on sait comment garder la tête froide même dans
                 les projets les plus chauds. Pas de bosses, que des solutions.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
-                <button className="rounded-md bg-secondary px-3.5 py-2.5 text-xl font-semibold text-primary">
+                <button className="rounded-md bg-primary px-3.5 py-2.5 text-xl font-semibold text-secondary">
                   Contactez-nous !
                 </button>
               </div>
