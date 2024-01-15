@@ -1,4 +1,3 @@
-import logo from "../assets/images/logo.svg";
 import mobileIcon from "../assets/images/mobileIcon.svg";
 import wrenchIcon from "../assets/images/wrenchIcon.svg";
 import adviseIcon from "../assets/images/adviseIcon.svg";
@@ -56,7 +55,7 @@ export default function ServicesSection() {
             Nos prestations
           </h2>
           <p
-            className="mt-2 text-3xl font-bold tracking-wider font-TrashHand text-white sm:text-4xl"
+            className="mt-2 text-3xl font-bold tracking-wider font-TrashHand text-white sm:text-5xl"
             id="services"
           >
             Ce qu’on sait faire ?
