@@ -14,7 +14,7 @@ export default function WorkingSection() {
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="#"
-              className="rounded-md bg-secondary px-3.5 py-2.5 text-lg font-semibold text-primary"
+              className="rounded-md bg-secondary px-3.5 py-2.5 text-xl font-semibold text-primary"
             >
               Contactez-nous
             </a>
