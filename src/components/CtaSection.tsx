@@ -1,4 +1,4 @@
-export default function MainCtaSection(props: { label: string }) {
+export default function CtaSection(props: { label: string }) {
   return (
     <div className="bg-primary">
       <div className="mx-auto max-w-7xl sm:py-12 lg:flex lg:items-center lg:justify-between lg:px-8">

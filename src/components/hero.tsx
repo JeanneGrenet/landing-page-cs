@@ -1,7 +1,6 @@
 import Image from "next/image";
 import logo from "../assets/images/logo.svg";
 import teamPic1 from "../assets/images/team.jpg";
-import { useState } from "react";
 
 const navigation = [
   { name: "Services", href: "#services" },
