@@ -75,15 +75,15 @@ export default function ServicesSection() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
               <section key={feature.name} className="flex flex-col">
+                <figure className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-secondary">
+                  <Icon
+                    src={feature.icon}
+                    className="h-6 w-6"
+                    aria-hidden="true"
+                    alt={feature.alt}
+                  />
+                </figure>
                 <dt className="text-2xl font-semibold leading-7 text-secondary tracking-wider font-TrashHand">
-                  <dd className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-secondary">
-                    <Icon
-                      src={feature.icon}
-                      className="h-6 w-6"
-                      aria-hidden="true"
-                      alt={feature.alt}
-                    />
-                  </dd>
                   {feature.name}
                 </dt>
                 <dd className="fmt-1 flex flex-auto flex-col text-base leading-7">
