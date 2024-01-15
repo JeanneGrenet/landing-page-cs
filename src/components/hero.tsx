@@ -14,7 +14,7 @@ export default function HeroSection() {
     <main className="bg-secondary relative isolate">
       <header className=" bg-secondary mx-auto flex max-w-auto items-center p-6 lg:px-8">
         <figure className="flex lg:flex-1">
-          <Image className="h-10 w-auto" src={logo} alt="" />
+          <Image className="h-10 w-auto" src={logo} alt="logo of the company" />
         </figure>
         <nav className="flex gap-x-12">
           {navigation.map((item) => (
@@ -45,7 +45,7 @@ export default function HeroSection() {
           </section>
           <Image
             src={teamPic1}
-            alt=""
+            alt="L'équipe de Camel Studio"
             className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
           />
         </section>
