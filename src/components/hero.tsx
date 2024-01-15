@@ -19,7 +19,7 @@ export default function HeroSection() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <Image className="h-8 w-auto" src={logo} alt="" />
+              <Image className="h-10 w-auto" src={logo} alt="" />
             </a>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
@@ -49,7 +49,7 @@ export default function HeroSection() {
                 les projets les plus chauds. Pas de bosses, que des solutions.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
-                <button className="rounded-md bg-secondary px-3.5 py-2.5 text-sm font-semibold text-primary">
+                <button className="rounded-md bg-secondary px-3.5 py-2.5 text-xl font-semibold text-primary">
                   Contactez-nous !
                 </button>
               </div>
