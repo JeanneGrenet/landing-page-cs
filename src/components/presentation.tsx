@@ -3,7 +3,7 @@ import checkIcon from "../assets/images/checkIcon.svg";
 
 export default function PresentationSection() {
   return (
-    <div className="bg-secondary px-6 py-32 lg:px-8">
+    <div className="bg-secondary px-6 py-16 lg:px-8" id="presentation">
       <div className="mx-auto max-w-3xl text-base leading-7">
         <p className="text-base font-semibold leading-7 text-primary">
           Présentation
@@ -14,9 +14,10 @@ export default function PresentationSection() {
         <p className="mt-6 text-xl leading-8">
           Une équipe jeune mais pas novice, soudée et qui connaît le marché
           européen. Pas de blabla ici. On code, on design, on résout des
-          problèmes. Notre équipe ? Des gens sympas qui aiment ce qu'ils font et
-          qui le font bien. On sait ce qui se passe sur le marché européen, et
-          on sait comment s'y prendre pour des projets qui dépotent.
+          problèmes. Notre équipe ? Des gens sympas qui aiment ce qu&apos;ils
+          font et qui le font bien. On sait ce qui se passe sur le marché
+          européen, et on sait comment s&apos;y prendre pour des projets qui
+          dépotent.
         </p>
         <div className="mt-10 max-w-2xl">
           <h2 className="mt-8 text-4xl font-bold tracking-wider font-TrashHand text-gray-900">
@@ -49,8 +50,8 @@ export default function PresentationSection() {
                 <strong className="font-semibold text-gray-900">
                   Jeunes, mais pas novices :
                 </strong>{" "}
-                On est jeunes, mais on sait ce qu'on fait. Une bonne énergie et
-                un bon mindset.
+                On est jeunes, mais on sait ce qu&apos;on fait. Une bonne
+                énergie et un bon mindset.
               </span>
             </li>
             <li className="flex gap-x-3">
