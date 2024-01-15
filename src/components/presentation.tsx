@@ -3,7 +3,7 @@ import checkIcon from "../assets/images/checkIcon.svg";
 
 export default function PresentationSection() {
   return (
-    <div className="bg-secondary px-6 py-16 lg:px-8" id="presentation">
+    <div className="bg-secondaryLight px-6 py-16 lg:px-8" id="presentation">
       <div className="mx-auto max-w-3xl text-base leading-7">
         <p className="text-base font-semibold leading-7 text-primary">
           Présentation

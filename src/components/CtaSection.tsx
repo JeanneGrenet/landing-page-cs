@@ -1,6 +1,6 @@
 export default function CtaSection(props: { label: string }) {
   return (
-    <div className="bg-primary">
+    <div className="bg-primaryLight">
       <div className="mx-auto max-w-7xl sm:py-12 lg:flex lg:items-center lg:justify-between lg:px-8">
         <h2 className="text-3xl font-bold tracking-wider font-TrashHand text-secondary sm:text-4xl">
           {props.label}

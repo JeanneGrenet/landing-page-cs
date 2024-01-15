@@ -15,7 +15,9 @@ const config: Config = {
       },
       colors: {
         primary: "#1E67FE",
+        primaryLight: "#4D89FF",
         secondary: "#FFB800",
+        secondaryLight: "#FFCD4B",
       },
       fontFamily: {
         TrashHand: ["TrashHand", "sans-serif"],
