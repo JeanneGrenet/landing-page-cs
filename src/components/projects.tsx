@@ -19,10 +19,10 @@ export default function ProjectsSection() {
         </div>
         <div className="px-6 lg:contents">
           <div className="mx-auto max-w-2xl pb-12 pt-16 sm:pb-12 sm:pt-12 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-12 xl:w-1/2">
-            <p className="text-base font-semibold leading-7 text-primary">
+            <p className="text-base font-semibold mb-6 text-primary">
               Travailler avec nous !
             </p>
-            <h1 className="mt-2 text-3xl font-bold tracking-wider font-TrashHand sm:text-5xl">
+            <h1 className="mt-2 text-3xl font-bold tracking-wider text-primary font-TrashHand sm:text-5xl">
               Développer votre projet avec le Camel Studio
             </h1>
             <p className="mt-6 text-xl leading-8 text-gray-900">
