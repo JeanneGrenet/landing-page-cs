@@ -4,13 +4,13 @@ import checkIcon from "../assets/images/checkIcon.svg";
 export default function PresentationSection() {
   return (
     <div className="bg-secondary px-6 py-16 lg:px-8" id="presentation">
-      <div className="mx-auto max-w-3xl text-base leading-7">
-        <p className="text-base font-semibold leading-7 text-primary">
+      <div className="mx-auto max-w-5xl text-base leading-7">
+        <p className="text-base font-semibold mb-6 text-primary">
           Présentation
         </p>
-        <h1 className="mt-2 text-3xl font-bold tracking-wider font-TrashHand text-gray-900 sm:text-5xl">
-          Qui sommes nous ?
-        </h1>
+        <h2 className="mt-2 text-3xl font-bold tracking-wider font-TrashHand text-primary sm:text-5xl">
+          Qui sommes-nous ?
+        </h2>
         <p className="mt-6 text-xl leading-8">
           Une équipe jeune mais pas novice, soudée et qui connaît le marché
           européen. Pas de blabla ici. On code, on design, on résout des
@@ -20,9 +20,9 @@ export default function PresentationSection() {
           dépotent.
         </p>
         <div className="mt-10 max-w-2xl">
-          <h2 className="mt-8 text-4xl font-bold tracking-wider font-TrashHand text-gray-900">
+          <h3 className="mt-8 text-4xl font-bold tracking-wider font-TrashHand text-primary">
             Pourquoi nous ?{" "}
-          </h2>
+          </h3>
           <ul role="list" className="mt-8 max-w-xl space-y-8">
             <li className="flex gap-x-3">
               <Icon

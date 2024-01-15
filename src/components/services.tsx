@@ -54,14 +54,11 @@ const features = [
 
 export default function ServicesSection() {
   return (
-    <main className="bg-primary py-12">
+    <main className="bg-white py-20" id="services">
       <article className="mx-auto max-w-7xl">
         <section className="mx-auto max-w-2xl lg:mx-0">
-          <p className="font-semibold text-secondary">Nos prestations</p>
-          <h2
-            className="mt-2 text-3xl font-bold tracking-wider font-TrashHand text-secondary sm:text-5xl"
-            id="services"
-          >
+          <p className="font-semibold text-primary mb-6">Nos prestations</p>
+          <h2 className="mt-2 text-3xl font-bold tracking-wider font-TrashHand text-primary sm:text-5xl">
             Ce qu’on sait faire ?
           </h2>
           <p className="mt-6 text-lg">
