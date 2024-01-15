@@ -1,5 +1,5 @@
-import mobileIcon from "../assets/images/mobileIcon.svg";
-import wrenchIcon from "../assets/images/wrenchIcon.svg";
+import peopleIcon from "../assets/images/peopleIcon.svg";
+import teamIcon from "../assets/images/teamIcon.svg";
 import teamPic from "../assets/images/team2.png";
 import Image from "next/image";
 import Icon from "next/image";
@@ -41,14 +41,14 @@ export default function ProjectsSection() {
               <ul role="list" className="mt-8 space-y-8 text-gray-800">
                 <li className="flex gap-x-3">
                   <Icon
-                    src={mobileIcon}
+                    src={peopleIcon}
                     className="h-6 w-6"
                     aria-hidden="true"
                     alt=""
                   />
                   <span>
                     <strong className="font-semibold text-primary">
-                      Option 1 :
+                      Option 1 :{" "}
                     </strong>
                     Vous avez déjà une équipe en place et vous voulez la booster
                     ? Aucun problème ! Prenez l&apos;un de nos développeurs, et
@@ -59,14 +59,14 @@ export default function ProjectsSection() {
                 </li>
                 <li className="flex gap-x-3">
                   <Icon
-                    src={wrenchIcon}
+                    src={teamIcon}
                     className="h-6 w-6"
                     aria-hidden="true"
                     alt=""
                   />
                   <span>
                     <strong className="font-semibold text-primary">
-                      Option 2 :
+                      Option 2 :{" "}
                     </strong>
                     Vous préférez déléguer l&apos;intégralité de votre projet à
                     notre équipe ? Laisse-nous prendre les rênes. Confiez-nous
