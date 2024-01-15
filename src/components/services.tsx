@@ -55,7 +55,7 @@ export default function ServicesSection() {
             Nos prestations
           </h2>
           <p
-            className="mt-2 text-3xl font-bold tracking-wider font-TrashHand text-white sm:text-5xl"
+            className="mt-2 text-3xl font-bold tracking-wider font-TrashHand text-secondary sm:text-5xl"
             id="services"
           >
             Ce qu’on sait faire ?

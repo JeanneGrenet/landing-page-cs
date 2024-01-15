@@ -3,10 +3,9 @@ import logo from "../assets/images/logo.svg";
 import teamPic1 from "../assets/images/team.jpg";
 
 const navigation = [
-  { name: "Services", href: "#services" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Prestations", href: "#services" },
+  { name: "Travailler avec nous !", href: "#work" },
+  { name: "Présentation", href: "#presentation" },
 ];
 
 export default function HeroSection() {
