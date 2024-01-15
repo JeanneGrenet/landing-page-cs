@@ -60,7 +60,7 @@ export default function ServicesSection() {
           >
             Ce qu’on sait faire ?
           </p>
-          <p className="mt-6 text-lg leading-8 text-white">
+          <p className="mt-6 text-lg leading-8">
             On fait du développement sur mesure, des applications web fluides et
             des solutions digitales qui marchent. On n&apos;a pas de formules
             magiques, juste du bon boulot. On est sympa, mais surtout on est
@@ -71,7 +71,7 @@ export default function ServicesSection() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col">
-                <dt className="text-xl font-semibold leading-7 text-secondary tracking-wider font-TrashHand">
+                <dt className="text-2xl font-semibold leading-7 text-secondary tracking-wider font-TrashHand">
                   <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-secondary">
                     <Icon
                       src={feature.icon}
@@ -82,7 +82,7 @@ export default function ServicesSection() {
                   </div>
                   {feature.name}
                 </dt>
-                <dd className="fmt-1 flex flex-auto flex-col text-base leading-7 text-gray-200">
+                <dd className="fmt-1 flex flex-auto flex-col text-base leading-7">
                   {feature.description}
                 </dd>
               </div>
