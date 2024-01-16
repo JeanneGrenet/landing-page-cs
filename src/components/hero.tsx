@@ -16,7 +16,7 @@ export default function HeroSection() {
         <figure className="flex lg:flex-1">
           <Image className="h-10 w-auto" src={logo} alt="logo of the company" />
         </figure>
-        <nav className="flex gap-x-12">
+        <nav className="hidden lg:flex gap-x-12">
           {navigation.map((item) => (
             <Link
               key={item.name}

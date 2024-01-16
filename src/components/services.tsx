@@ -68,7 +68,7 @@ export default function ServicesSection() {
             pros !
           </p>
         </section>
-        <section className="mx-auto max-w-2xl sm:mt-20 lg:mt-16 lg:max-w-none">
+        <section className="mx-auto max-w-2xl sm:mt-20 lg:mt-16 lg:max-w-none py-8">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
               <section key={feature.name} className="flex flex-col">

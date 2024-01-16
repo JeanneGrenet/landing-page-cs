@@ -4,7 +4,7 @@ export default function WorkingSection() {
       <h2 className="text-3xl font-bold tracking-wider font-TrashHand text-primary sm:text-5xl">
         On bosse comment ?
       </h2>
-      <p className="mx-auto mt-6 max-w-xl text-xl leading-8">
+      <p className="mx-auto mt-6 max-w-xl text-xl">
         Si vous en avez marre des discours pompeux et que vous voulez des
         résultats tangibles, parlons de votre projet. Contactez-nous et
         discutons sérieusement de ce que l&apos;on peut faire ensemble.
