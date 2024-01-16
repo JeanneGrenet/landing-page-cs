@@ -6,32 +6,30 @@ import Icon from "next/image";
 
 export default function ProjectsSection() {
   return (
-    <div className="relative bg-secondary" id="work">
-      <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
-        <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
-          <div className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
-            <Image
-              className="absolute inset-0 h-full w-full bg-gray-50 object-cover"
-              src={teamPic}
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="px-6 lg:contents">
-          <div className="mx-auto max-w-2xl pb-12 pt-16 sm:pb-12 sm:pt-12 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-12 xl:w-1/2">
-            <p className="text-base font-semibold mb-6 text-primary">
+    <main className="relative bg-secondary " id="work">
+      <article className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
+        <figure className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full xl:ml-0 lg:flex lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
+          <Image
+            className="absolute inset-0 h-full w-full bg-gray-50 object-cover"
+            src={teamPic}
+            alt="Certains membres de la team de Camel Studio"
+          />
+        </figure>
+        <section className="px-6 lg:contents">
+          <div className="mx-auto max-w-2xl pb-12 pt-16 sm:pb-12 sm:pt-12 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:pt-12 xl:w-1/2">
+            <p className="font-semibold mb-6 text-primary">
               Travailler avec nous !
             </p>
-            <h1 className="mt-2 text-3xl font-bold tracking-wider text-primary font-TrashHand sm:text-5xl">
+            <h2 className="mt-2 text-3xl font-bold tracking-wider text-primary font-TrashHand sm:text-5xl">
               Développer votre projet avec le Camel Studio
-            </h1>
-            <p className="mt-6 text-xl leading-8 text-gray-900">
+            </h2>
+            <p className="mt-6 text-xl text-gray-900">
               Chez Camel Studio, on croit fermement que la force d&apos;une
               équipe réside dans sa cohésion. Notre équipe ne se contente pas
               d&apos;être une bande de collègues, mais une véritable famille de
               devs.
             </p>
-            <div className="mt-10 max-w-xl text-base leading-7 text-gray-800 lg:max-w-none">
+            <section className="mt-10 max-w-xl text-base leading-7 text-gray-800 lg:max-w-none">
               <p>
                 Avec nous, vous faites le choix d’avoir toute une équipe soudée
                 prête à faire briller votre vision. Même si chaque membre de
@@ -44,9 +42,9 @@ export default function ProjectsSection() {
                     src={peopleIcon}
                     className="h-6 w-6"
                     aria-hidden="true"
-                    alt=""
+                    alt="icone qui représente une personne"
                   />
-                  <span>
+                  <p>
                     <strong className="font-semibold text-primary">
                       Option 1 :{" "}
                     </strong>
@@ -55,16 +53,16 @@ export default function ProjectsSection() {
                     non seulement vous aurez un professionnel dédié, mais vous
                     aurez aussi accès à l&apos;expertise collective de toute
                     notre équipe qui le soutient et l’épaule en coulisses.
-                  </span>
+                  </p>
                 </li>
                 <li className="flex gap-x-3">
                   <Icon
                     src={teamIcon}
                     className="h-6 w-6"
                     aria-hidden="true"
-                    alt=""
+                    alt="Icone qui représente une team"
                   />
-                  <span>
+                  <p>
                     <strong className="font-semibold text-primary">
                       Option 2 :{" "}
                     </strong>
@@ -73,7 +71,7 @@ export default function ProjectsSection() {
                     votre vision, et notre équipe de développement mettra en
                     œuvre chaque ligne de code avec soin, du concept à la
                     réalisation.
-                  </span>
+                  </p>
                 </li>
               </ul>
               <p className="mt-8">
@@ -82,10 +80,10 @@ export default function ProjectsSection() {
                 renfort ponctuel ou d’une conception complète. Faites équipe
                 avec nous, et ensemble, on fera de votre vision une réalité. 🚀
               </p>
-            </div>
+            </section>
           </div>
-        </div>
-      </div>
-    </div>
+        </section>
+      </article>
+    </main>
   );
 }
