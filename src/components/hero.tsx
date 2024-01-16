@@ -28,7 +28,7 @@ export default function HeroSection() {
           ))}
         </nav>
       </header>
-      <div className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white sm:-mr-80 lg:-mr-96" />
+      <div className="lg:absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white overflow-hidden" />
       <article className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
         <section className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
           <h1 className="max-w-2xl text-4xl font-bold text-primary sm:text-6xl lg:col-span-2 xl:col-auto font-TrashHand tracking-wider">
