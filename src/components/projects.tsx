@@ -6,18 +6,18 @@ import Icon from "next/image";
 
 export default function ProjectsSection() {
   return (
-    <main className="relative bg-secondary " id="work">
+    <main className="relative bg-white " id="work">
       <article className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
         <figure className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full xl:ml-0 lg:flex lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
           <Image
-            className="absolute inset-0 h-full w-full bg-gray-50 object-cover"
+            className="absolute inset-0 h-full w-full object-cover"
             src={teamPic}
             alt="Certains membres de la team de Camel Studio"
           />
         </figure>
         <section className="px-6 lg:contents">
           <div className="mx-auto max-w-2xl pb-12 pt-16 sm:pb-12 sm:pt-12 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:pt-12 xl:w-1/2">
-            <p className="font-semibold mb-6 text-primary">
+            <p className="font-semibold mb-6 text-secondary">
               Travailler avec nous !
             </p>
             <h2 className="mt-2 text-3xl font-bold tracking-wider text-primary font-TrashHand sm:text-5xl">
@@ -29,7 +29,7 @@ export default function ProjectsSection() {
               d&apos;être une bande de collègues, mais une véritable famille de
               devs.
             </p>
-            <section className="mt-10 max-w-xl text-base leading-7 text-gray-800 lg:max-w-none">
+            <section className="mt-10 max-w-xl text-base text-gray-800 lg:max-w-none">
               <p>
                 Avec nous, vous faites le choix d’avoir toute une équipe soudée
                 prête à faire briller votre vision. Même si chaque membre de
@@ -79,6 +79,7 @@ export default function ProjectsSection() {
                 on est prêts à vous accompagner, que vous ayez besoin d&apos;un
                 renfort ponctuel ou d’une conception complète. Faites équipe
                 avec nous, et ensemble, on fera de votre vision une réalité. 🚀
+                🐪
               </p>
             </section>
           </div>

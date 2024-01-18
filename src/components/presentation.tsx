@@ -3,15 +3,15 @@ import checkIcon from "../assets/images/checkIcon.svg";
 
 export default function PresentationSection() {
   return (
-    <main className="bg-secondary px-6 py-16 lg:px-8" id="presentation">
-      <article className="mx-auto max-w-5xl text-base leading-7">
-        <p className="text-base font-semibold mb-6 text-primary">
+    <main className="bg-white px-6 py-16 lg:px-8" id="presentation">
+      <article className="mx-auto max-w-7xl text-base leading-7">
+        <p className="text-base font-semibold mb-6 text-secondary">
           Présentation
         </p>
         <h2 className="mt-2 text-3xl font-bold tracking-wider font-TrashHand text-primary sm:text-5xl">
           Qui sommes-nous ?
         </h2>
-        <p className="mt-6 text-xl">
+        <p className="mt-6 text-xl max-w-5xl">
           Une équipe jeune mais pas novice, soudée et qui connaît le marché
           européen. Pas de blabla ici. On code, on design, on résout des
           problèmes. Notre équipe ? Des gens sympas qui aiment ce qu&apos;ils

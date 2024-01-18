@@ -57,7 +57,7 @@ export default function ServicesSection() {
     <main className="bg-white py-20" id="services">
       <article className="mx-auto max-w-7xl px-8">
         <section className="mx-auto max-w-2xl lg:mx-0">
-          <p className="font-semibold text-primary mb-6">Nos prestations</p>
+          <p className="font-semibold text-secondary mb-6">Nos prestations</p>
           <h2 className="mt-2 text-3xl font-bold tracking-wider font-TrashHand text-primary sm:text-5xl">
             Ce qu’on sait faire ?
           </h2>
