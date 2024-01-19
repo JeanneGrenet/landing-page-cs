@@ -14,6 +14,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className="!scroll-smooth">
+      <head>
+        <title>Camel Studio</title>
+        <meta
+          name="description"
+          content="Studion de développement basé en Tunisie : Prêts à développer votre porojet avec Camel Studio"
+        ></meta>
+      </head>
       <body className={`${roboto.variable}`}>{children}</body>
     </html>
   );

@@ -1,7 +1,6 @@
+import Link from "next/link";
+
 export default function WorkingSection() {
-  const handleEmailButtonClick = () => {
-    window.open("mailto:contact@camelstudiotunisie.com", "_blank");
-  };
   return (
     <main className="bg-gray-50 mx-auto text-center py-24">
       <h2 className="text-3xl font-bold tracking-wider font-TrashHand text-primary sm:text-5xl">
@@ -12,12 +11,20 @@ export default function WorkingSection() {
         résultats tangibles, parlons de votre projet. Contactez-nous et
         discutons sérieusement de ce que l&apos;on peut faire ensemble.
       </p>
-      <button
-        className="rounded-md bg-primary px-3.5 py-2.5 text-xl font-semibold text-white mt-10"
-        onClick={handleEmailButtonClick}
-      >
-        Contactez-nous
-      </button>
+      <section className="mt-10">
+        <Link
+          className="rounded-md bg-primary px-3.5 py-2.5 text-xl font-semibold text-white mt-10 hover:bg-secondary"
+          href="mailto:contact@camelstudiotunisie.com"
+        >
+          Contactez-nous !
+        </Link>
+        <Link
+          href="#work"
+          className="pl-8 text-primary hover:text-secondary font-semibold text-xl"
+        >
+          En savoir plus !
+        </Link>
+      </section>
     </main>
   );
 }

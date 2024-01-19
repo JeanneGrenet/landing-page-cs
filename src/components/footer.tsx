@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Icon from "next/image";
-import linkedin from "../assets/images/linkedinIcon.svg";
+import linkedin from "@/assets/images/linkedinIcon.svg";
+import mail from "@/assets/images/mailIcon.svg";
 
 export default function FooterSection() {
   return (
@@ -16,6 +17,12 @@ export default function FooterSection() {
               src={linkedin}
               alt="logo linkedin"
             />
+          </Link>
+          <Link
+            href="mailto:contact@camelstudiotunisie.com"
+            className="text-gray-400"
+          >
+            <Icon className="h-6 w-6 text-primary" src={mail} alt="logo mail" />
           </Link>
         </section>
         <section className="mt-8 md:order-1 md:mt-0">

@@ -4,20 +4,18 @@ import checkIcon from "../assets/images/checkIcon.svg";
 export default function PresentationSection() {
   return (
     <main className="bg-white px-6 py-16 lg:px-8" id="presentation">
-      <article className="mx-auto max-w-7xl text-base leading-7">
-        <p className="text-base font-semibold mb-6 text-secondary">
-          Présentation
-        </p>
+      <article className="mx-auto max-w-7xl px-8">
+        <p className="text-base font-semibold mb-6">Présentation</p>
         <h2 className="mt-2 text-3xl font-bold tracking-wider font-TrashHand text-primary sm:text-5xl">
           Qui sommes-nous ?
         </h2>
         <p className="mt-6 text-xl max-w-5xl">
-          Une équipe jeune mais pas novice, soudée et qui connaît le marché
-          européen. Pas de blabla ici. On code, on design, on résout des
+          Une équipe jeune, soudée en quête de nouvelles expériences et de
+          nouveau projets Pas de blabla ici. On code, on design, on résout des
           problèmes. Notre équipe ? Des gens sympas qui aiment ce qu&apos;ils
           font et qui le font bien. On sait ce qui se passe sur le marché
           européen, et on sait comment s&apos;y prendre pour des projets qui
-          dépotent.
+          fonctionnent. On est sympa, et surtout pros.
         </p>
         <section className="mt-10 max-w-2xl">
           <h3 className="mt-8 text-4xl font-bold tracking-wider font-TrashHand text-primary">
@@ -48,10 +46,9 @@ export default function PresentationSection() {
               />
               <p>
                 <strong className="font-semibold text-gray-900">
-                  Jeunes, mais pas novices :
+                  On est jeunes et on sait ce qu&apos;on fait :
                 </strong>{" "}
-                On est jeunes, mais on sait ce qu&apos;on fait. Une bonne
-                énergie et un bon mindset.
+                Une bonne énergie et un bon mindset.
               </p>
             </li>
             <li className="flex gap-x-3">

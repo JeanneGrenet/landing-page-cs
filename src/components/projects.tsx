@@ -1,6 +1,7 @@
 import peopleIcon from "../assets/images/peopleIcon.svg";
 import teamIcon from "../assets/images/teamIcon.svg";
-import teamPic from "../assets/images/team2.png";
+import teamSmall from "../assets/images/team2small.jpg";
+import teamLarge from "../assets/images/team2large.jpg";
 import Image from "next/image";
 import Icon from "next/image";
 
@@ -8,18 +9,23 @@ export default function ProjectsSection() {
   return (
     <main className="relative bg-white " id="work">
       <article className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
-        <figure className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full xl:ml-0 lg:flex lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
+        <figure className="hidden lg:-ml-8 lg:h-auto lg:w-full xl:ml-0 lg:flex lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
+          <Image
+            className="object-cover"
+            src={teamSmall}
+            alt="Certains membres de la team de Camel Studio"
+          />
+        </figure>
+        <figure className="relative h-80 lg:hidden xl:hidden">
           <Image
             className="absolute inset-0 h-full w-full object-cover"
-            src={teamPic}
+            src={teamLarge}
             alt="Certains membres de la team de Camel Studio"
           />
         </figure>
         <section className="px-6 lg:contents">
           <div className="mx-auto max-w-2xl pb-12 pt-16 sm:pb-12 sm:pt-12 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:pt-12 xl:w-1/2">
-            <p className="font-semibold mb-6 text-secondary">
-              Travailler avec nous !
-            </p>
+            <p className="font-semibold mb-6">Travailler avec nous !</p>
             <h2 className="mt-2 text-3xl font-bold tracking-wider text-primary font-TrashHand sm:text-5xl">
               Développer votre projet avec le Camel Studio
             </h2>
@@ -36,6 +42,11 @@ export default function ProjectsSection() {
                 notre équipe bosse sur des projets différents, l&apos;esprit
                 d&apos;équipe reste intact.
               </p>
+              <p className="mt-4">
+                On comprend que chaque projet ait des besoins spécifiques,
+                c&apos;est pourquoi on offre deux options flexibles pour
+                répondre à vos attentes.
+              </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-800">
                 <li className="flex gap-x-3">
                   <Icon
@@ -46,10 +57,9 @@ export default function ProjectsSection() {
                   />
                   <p>
                     <strong className="font-semibold text-primary">
-                      Option 1 :{" "}
+                      Option 1, vous avez déjà une équipe à booster :{" "}
                     </strong>
-                    Vous avez déjà une équipe en place et vous voulez la booster
-                    ? Aucun problème ! Prenez l&apos;un de nos développeurs, et
+                    Aucun problème ! Prenez l&apos;un de nos développeurs, et
                     non seulement vous aurez un professionnel dédié, mais vous
                     aurez aussi accès à l&apos;expertise collective de toute
                     notre équipe qui le soutient et l’épaule en coulisses.
@@ -64,7 +74,7 @@ export default function ProjectsSection() {
                   />
                   <p>
                     <strong className="font-semibold text-primary">
-                      Option 2 :{" "}
+                      Option 2, votre équipe c&apos;est nous :{" "}
                     </strong>
                     Vous préférez déléguer l&apos;intégralité de votre projet à
                     notre équipe ? Laisse-nous prendre les rênes. Confiez-nous

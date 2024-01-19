@@ -1,5 +1,6 @@
 import Icon from "next/image";
 import logo from "../assets/images/logo.svg";
+import logoLarge from "../assets/images/LogoLarge.png";
 import barsIcon from "../assets/images/barsIcon.svg";
 import xIcon from "../assets/images/xIcon.svg";
 import { useState } from "react";
@@ -16,7 +17,14 @@ export default function NavSection() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <header className="mx-auto flex max-w-auto items-center p-4 lg:px-8 sticky z-10 top-0 bg-gray-50">
-      <Link className="flex lg:flex-1" href="#hero">
+      <Link className="hidden lg:flex" href="#">
+        <Icon
+          className="h-10 w-auto"
+          src={logoLarge}
+          alt="logo of the company"
+        />
+      </Link>
+      <Link className="lg:hidden flex" href="#">
         <Icon className="h-10 w-auto" src={logo} alt="logo of the company" />
       </Link>
       <nav className="ml-auto flex max-w-7xl p-6 lg:px-8" aria-label="Global">
@@ -39,7 +47,7 @@ export default function NavSection() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold text-gray-900"
+              className="text-sm font-semibold text-gray-900 hover:text-primary"
             >
               {item.name}
             </Link>

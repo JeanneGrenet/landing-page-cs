@@ -1,10 +1,8 @@
 import Image from "next/image";
 import teamPic1 from "../assets/images/team.jpg";
+import Link from "next/link";
 
 export default function HeroSection() {
-  const handleEmailButtonClick = () => {
-    window.open("mailto:contact@camelstudiotunisie.com", "_blank");
-  };
   return (
     <main className="bg-gray-50" id="hero">
       <article className="mx-auto max-w-7xl px-6 py-12 sm:py-32 lg:px-8">
@@ -12,17 +10,25 @@ export default function HeroSection() {
           <h1 className="max-w-2xl text-4xl font-bold text-primary sm:text-6xl lg:col-span-2 xl:col-auto font-TrashHand tracking-wider">
             Camel Studio: une boîte de devs agiles et résilients 
           </h1>
-          <section className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-            <p className="text-lg leading-8">
+          <section className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 grid">
+            <p className="text-lg">
               Au Camel Studio on sait comment garder la tête froide même dans
               les projets les plus chauds. Pas de bosses, que des solutions.
             </p>
-            <button
-              className="rounded-md bg-primary px-3.5 py-2.5 text-xl font-semibold text-white mt-10"
-              onClick={handleEmailButtonClick}
-            >
-              Contactez-nous !
-            </button>
+            <section className="mt-10 grid lg:grid-cols-2 grid-cols-1 place-self-center">
+              <Link
+                className="rounded-md bg-primary px-3.5 py-2.5 text-xl font-semibold text-white hover:bg-secondary text-center"
+                href="mailto:contact@camelstudiotunisie.com"
+              >
+                Contactez-nous !
+              </Link>
+              <Link
+                href="#work"
+                className=" text-primary hover:text-secondary font-semibold text-xl text-center"
+              >
+                En savoir plus !
+              </Link>
+            </section>
           </section>
           <Image
             src={teamPic1}

@@ -14,7 +14,7 @@ export default function Home() {
       <NavSection />
       <HeroSection />
       <ServicesSection />
-      <CtaSection label="Prêt à travaillez avec nous ?" />
+      <CtaSection label="Ça vous intéresse ?" />
       <PresentationSection />
       <WorkingSection />
       <ProjectsSection />
